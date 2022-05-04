@@ -1,5 +1,8 @@
+# https://atcoder.jp/contests/abc231/tasks/abc231_c
+
 import bisect
-n,q = [int(i) for i in input().split()]
+
+n, q = [int(i) for i in input().split()]
 a = [int(i) for i in input().split()]
 a.sort()
 for i in range(q):
